@@ -20,6 +20,11 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <style>
+            body {
+                max-height: 100vh;
+                display: fixed;
+                overflow: hidden;
+            }
             .head-menu {
                 display: flex;
                 position: relative;
